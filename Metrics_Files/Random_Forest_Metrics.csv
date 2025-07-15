@@ -1,0 +1,7 @@
+Metric,Value
+Accuracy,0.988037109375
+Precision,0.9880798650768785
+Recall,0.988037109375
+F1 Score,0.9880316792405547
+Training Time, 237.58
+Testing Time, 12.281
