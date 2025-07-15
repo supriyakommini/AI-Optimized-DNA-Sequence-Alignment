@@ -66,7 +66,7 @@ Traditional sequence alignment algorithms such as Needleman-Wunsch (NW) are math
 │   ├── RefSeq.csv                    # Training dataset
 │   ├── CompSeq.csv                   # Testing dataset
 ├   ├── RefSeq-S.csv                  # Scaled Training dataset
-│   ├── CompSeq-S.csv                   # Scaled Testing dataset
+│   ├── CompSeq-S.csv                 # Scaled Testing dataset
 │   ├── Original_Sequence_Chr4.fasta  # Original genome sequence (raw format)
 │   └── Filtered_Sequence.txt         # Cleaned/processed sequence text
 │
