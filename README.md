@@ -130,7 +130,7 @@ Make sure the dataset is loaded correctly and paths are adjusted if needed.
 ## Authors
 
 - **K Supriya**
-- **R Kavin Kumar**   zz.ẓ.zzzzzzzzz
+- **R Kavin Kumar**
 
 Department of Electronics and Communication Engineering  
 Amrita Vishwa Vidyapeetham, Bengaluru Campus
