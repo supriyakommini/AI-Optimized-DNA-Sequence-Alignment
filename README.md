@@ -59,16 +59,33 @@ Traditional sequence alignment algorithms such as Needleman-Wunsch (NW) are math
 ```
 📁 root/
 │
-├── CNN.ipynb                  # CNN-based sequence alignment model
-├── Bi-LSTM.ipynb              # Bi-LSTM-based sequence alignment model
-├── Random-Forest.ipynb        # Random Forest classifier
-├── Random-Forest_single-file.ipynb
-├── MLP.ipynb                  # Baseline MLP model
-├── Results.ipynb              # Performance comparison and evaluation
-├── Dataset/                   # RefSeq.csv and CompSeq.csv
-└── README.md                  # This file
+├── 📁 Data_Preprocessing/
+│   └── DataPreProc.ipynb             # Notebook for preprocessing DNA sequences
+│
+├── 📁 Datasets/
+│   ├── RefSeq.csv                    # Training dataset
+│   ├── CompSeq.csv                   # Testing dataset
+│   ├── Original_Sequence_Chr4.fasta  # Original genome sequence (raw format)
+│   └── Filtered_Sequence.txt         # Cleaned/processed sequence text
+│
+├── 📁 Metrics_Files/
+│   ├── CNN_Metrics.csv
+│   ├── Bilstm_Metrics.csv
+│   ├── MLP_Metrics.csv
+│   └── Random_Forest_Metrics.csv     # Model-specific evaluation metrics
+│
+├── 📁 Models-Code_Files/
+│   ├── CNN.ipynb
+│   ├── Bi-LSTM.ipynb
+│   ├── MLP.ipynb
+│   ├── Random-Forest.ipynb
+│   └── Random-Forest_single-file.ipynb
+│
+├── 📁 Results/
+│   └── Results.ipynb                 # Model comparison and analysis
+│
+└── README.md                         # Project documentation
 ```
-
 ---
 
 ## Evaluation Metrics
